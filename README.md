@@ -27,7 +27,7 @@ To start with Sketchware Pro, download the app from [here](#) and follow the ins
 ### Installation Guide
 - Download the latest version of Sketchware Pro.
 - Follow the setup wizard.
-- For advanced usage, check the [Installation](docs/installation.md) documentation.
+- For advanced usage, check the [Installation](Docs/installation.md) documentation.
 
 ### Contribution Guidelines
 We welcome contributions! Please check our [Contribution Guide](CONTRIBUTING.md) before making any changes.
