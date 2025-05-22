@@ -169,4 +169,73 @@ Feel free to fork, edit, or improve this guide for your own use or team document
 
 ---
 
-> Created with ❤️ by a Android Bulb
+> Created with ❤️ by a Sketchware Pro Developer
+
+---
+
+## 🤖 AI Prompt for Automatic Custom Block Creation in Sketchware Pro
+
+You can copy the following prompt and paste it into ChatGPT or any AI assistant. Then, simply describe the type of block you want to create. The AI will generate a **complete step-by-step guide**, including block properties, design, and embedded Java code — exactly like the detailed examples in this README.
+
+---
+
+### 🧠 AI Prompt Template (Copy & Use)
+
+```
+You are an expert in Sketchware Pro custom block creation. I want to create a new block using the Block Manager.
+
+Please provide me with a complete step-by-step process to create the block including:
+
+1. Creating a new pallet
+2. Block name
+3. Block type (e.g., regular, c, e, etc.)
+4. Block type name (if needed)
+5. Block color (in HEX)
+6. Block spec (with appropriate parameters like %s, %d, %b, etc.)
+7. Embedded Java code using %1$s, %2$s, etc., based on spec order
+8. A working example of how the block will be used
+9. What Java code it compiles into
+
+Make sure the format follows Sketchware Pro standards and explain each field clearly.
+
+Here is what I want to build:
+[A short description of the block function, like “While loop”, “Show Log”, “HTTP Request”, etc.]
+```
+
+---
+
+### ✅ Example Usage
+
+```
+I want to build a custom block that acts like a Java While loop.
+```
+
+ChatGPT will respond with:
+
+> ✔️ Create a pallet (e.g., Loops)  
+> ✔️ Add a new block  
+> **Name**: While  
+> **Type**: c  
+> **Color**: #000000  
+> **Spec**: While %b then  
+> **Java Code**:
+> ```java
+> while(%1$s) {
+>     %2$s
+> }
+> ```
+
+> 💬 Example usage:
+> `[While isRunning] { do something }`  
+> Compiles to:
+> ```java
+> while(isRunning) {
+>     do something;
+> }
+> ```
+
+---
+
+With this prompt, anyone can create any type of custom block — like `If`, `Toast`, `Repeat`, `HTTP Request`, `Custom Logger`, and more — simply by changing the description.
+
+🚀 Start building smart and reusable blocks the easy way!
