@@ -169,7 +169,7 @@ Feel free to fork, edit, or improve this guide for your own use or team document
 
 ---
 
-> Created with ❤️ by a Sketchware Pro Developer
+> Created with ❤️ by a Android Bulb
 
 ---
 
